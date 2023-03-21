@@ -1,0 +1,33 @@
+.sidebar-toggle {
+    display: flex;
+    align-items: center;
+    background-color: cyan;
+    color: #333;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .sidebar-toggle:hover {
+    background-color: #bbb;
+  }
+  
+  .sidebar-toggle i {
+    margin-right: 0.5rem;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -200px;
+    width: 200px;
+    height: 100%;
+    background-color: #eee;
+    transition: all 0.3s ease;
+    z-index: 9999;
+  }
+  
+  .sidebar.open {
+    left: 0;
+  }
+  
